@@ -1,0 +1,5 @@
+open-day-registration-form:
+  version: VERSION
+  css:
+    theme:
+      css/open_day_registration_form.css: {}

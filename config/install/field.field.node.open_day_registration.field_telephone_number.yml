@@ -1,0 +1,23 @@
+uuid: 418a2f55-45c2-45a9-8c6e-7aa4a0c7c2da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone_number
+    - node.type.open_day_registration
+  module:
+    - telephone
+_core:
+  default_config_hash: D0UogTlyqS86ZpLbL5p4ICZqFAUP3UigULGVm2vfqzE
+id: node.open_day_registration.field_telephone_number
+field_name: field_telephone_number
+entity_type: node
+bundle: open_day_registration
+label: 'Telephone Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

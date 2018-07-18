@@ -1,0 +1,20 @@
+uuid: 7eebba9d-0620-4f1f-bcc3-bf6cc8ff92e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.open_day_registration
+_core:
+  default_config_hash: k-gl5MTDPcxLvF_awMih45f85wx9hW2DlCo2XkvW6q4
+id: node.open_day_registration.title
+field_name: title
+entity_type: node
+bundle: open_day_registration
+label: 'First Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

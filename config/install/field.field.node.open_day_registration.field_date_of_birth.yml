@@ -1,0 +1,23 @@
+uuid: 357121c8-768f-44ba-9f24-7cbc59c11944
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_of_birth
+    - node.type.open_day_registration
+  module:
+    - datetime
+_core:
+  default_config_hash: bGJNiPBt6aUHjbGgAYDNCtFXGzoobA2e-Gl34X0Zyd4
+id: node.open_day_registration.field_date_of_birth
+field_name: field_date_of_birth
+entity_type: node
+bundle: open_day_registration
+label: 'Date of Birth'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,94 @@
+uuid: 661d8e66-ae38-4e33-9a93-fe45c5d1d9fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.open_day_registration.field_date_of_birth
+    - field.field.node.open_day_registration.field_email_address
+    - field.field.node.open_day_registration.field_golden_ticket_draw
+    - field.field.node.open_day_registration.field_high_school
+    - field.field.node.open_day_registration.field_home_address
+    - field.field.node.open_day_registration.field_subscribe
+    - field.field.node.open_day_registration.field_surname
+    - field.field.node.open_day_registration.field_telephone_number
+    - node.type.open_day_registration
+  module:
+    - address
+    - datetime
+    - options
+    - user
+_core:
+  default_config_hash: nLi1smEFZi_2yMHYUwSa_TLvBsnHjPz3ZFmKM7B5vLQ
+id: node.open_day_registration.default
+targetEntityType: node
+bundle: open_day_registration
+mode: default
+content:
+  field_date_of_birth:
+    weight: 101
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_email_address:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_golden_ticket_draw:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_high_school:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_home_address:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_subscribe:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_surname:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_telephone_number:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

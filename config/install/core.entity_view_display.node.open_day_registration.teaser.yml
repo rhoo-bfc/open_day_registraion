@@ -1,0 +1,35 @@
+uuid: ea8dd1d2-f1be-4958-95bd-86c857c71096
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.open_day_registration.field_date_of_birth
+    - field.field.node.open_day_registration.field_email_address
+    - field.field.node.open_day_registration.field_high_school
+    - field.field.node.open_day_registration.field_home_address
+    - field.field.node.open_day_registration.field_surname
+    - field.field.node.open_day_registration.field_telephone_number
+    - node.type.open_day_registration
+  module:
+    - user
+_core:
+  default_config_hash: MXjpa8GM8AJ7jqzk3CDcotX85qM82Iuusg9-Gab699E
+id: node.open_day_registration.teaser
+targetEntityType: node
+bundle: open_day_registration
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_date_of_birth: true
+  field_email_address: true
+  field_high_school: true
+  field_home_address: true
+  field_surname: true
+  field_telephone_number: true

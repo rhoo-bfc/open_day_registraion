@@ -1,0 +1,31 @@
+uuid: 1e628612-b8b7-4e3e-940d-ac1c41bf4df6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+_core:
+  default_config_hash: gwXZ0Bxqxt5J5Qdl3_y-KrY9VpONyJSbWqDgTwIJsIg
+name: 'Open Day Registration'
+type: open_day_registration
+description: 'Registration for college open days via iPads'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

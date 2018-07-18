@@ -1,0 +1,6 @@
+name: Open Day Registration System
+description: 'Provides registration form to create new Open Day Registration entities'
+package: 'Registration Forms'
+type: module
+core: 8.x
+version: 8.x-1.0-dev

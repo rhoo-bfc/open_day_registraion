@@ -1,0 +1,38 @@
+uuid: e6a16889-85fe-4335-adcc-311890c6a830
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_address
+    - node.type.open_day_registration
+  module:
+    - address
+_core:
+  default_config_hash: HdcrCPxLP37uLXJl2Cot9x0GiANLy0dcrsDEjwf9He0
+id: node.open_day_registration.field_home_address
+field_name: field_home_address
+entity_type: node
+bundle: open_day_registration
+label: 'Home Address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries:
+    GB: GB
+  fields:
+    locality: locality
+    postalCode: postalCode
+    addressLine1: addressLine1
+    addressLine2: addressLine2
+    administrativeArea: '0'
+    dependentLocality: '0'
+    sortingCode: '0'
+    organization: '0'
+    givenName: '0'
+    additionalName: '0'
+    familyName: '0'
+  langcode_override: ''
+field_type: address

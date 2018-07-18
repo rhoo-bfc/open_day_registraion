@@ -1,0 +1,104 @@
+uuid: 492109d1-c4bc-4705-861c-66a6ba1c60fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: _I6Iv1ZMTSBxASex2wQ8unWTFr2Q01pNK3_uwAQbqvE
+id: node.field_high_school
+field_name: field_high_school
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'Elective Home Education/School'
+    -
+      value: '2'
+      label: 'AKS (formally Arnold KEQMS)'
+    -
+      value: '3'
+      label: 'Aspire Academy (formally Bispham High School & Collegiate school)'
+    -
+      value: '4'
+      label: 'Baines School'
+    -
+      value: '5'
+      label: 'Blacpool Sixth Form'
+    -
+      value: '6'
+      label: 'Blackpool Woodlands School'
+    -
+      value: '7'
+      label: 'Cardinal Allen Catholic High School'
+    -
+      value: '8'
+      label: 'Carr Hill High School'
+    -
+      value: '9'
+      label: 'Educational Diversity'
+    -
+      value: '10'
+      label: 'Fleetwood High School'
+    -
+      value: '11'
+      label: 'Great Arley School'
+    -
+      value: '12'
+      label: 'Highfield Leadership Academy'
+    -
+      value: '13'
+      label: 'Hodgson Academy'
+    -
+      value: '14'
+      label: 'Kirkham Grammar School'
+    -
+      value: '15'
+      label: 'Lytham St Annes High School'
+    -
+      value: '16'
+      label: 'McKee Centre'
+    -
+      value: '17'
+      label: 'Millfield Science and Performing Arts College'
+    -
+      value: '18'
+      label: 'Montgomery High School'
+    -
+      value: '19'
+      label: 'Park Community Academy'
+    -
+      value: '20'
+      label: 'Red Marsh School'
+    -
+      value: '21'
+      label: 'Saint Aidan’s Church of England High School'
+    -
+      value: '22'
+      label: 'South Shore Academy (formally Palatine Community Sports College)'
+    -
+      value: '23'
+      label: 'St Bedes Catholic High School'
+    -
+      value: '24'
+      label: 'St Georges School'
+    -
+      value: '25'
+      label: 'St Marys Catholic College'
+    -
+      value: '26'
+      label: 'Unity Academy (formally Beacon Hill High School)'
+    -
+      value: '27'
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

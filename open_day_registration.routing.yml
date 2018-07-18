@@ -1,0 +1,8 @@
+open_day_registration.form:
+  path: '/open_day_registration'
+  defaults:
+    _form: '\Drupal\open_day_registration\Form\OpenDayRegistrationForm'
+    _title: 'Open Day Registration Form'
+  requirements:
+    _role: 'anonymous+authenticated'
+

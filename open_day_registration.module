@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function open_day_registration_page_attachments_alter(array &$page) {
+  // Attaches css assets globally.
+  $page['#attached']['library'][] = 'open_day_registration/open-day-registration-form';
+}

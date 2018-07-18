@@ -1,0 +1,128 @@
+/* import font for fieldset titles */
+@font-face {
+    font-family: bebas-neue;
+    src: url('../assets/fonts/bebasneue.otf');
+}
+
+#open-day-registration-form{
+  background-image: url('/modules/custom/open_day_registration/assets/img/ipad header.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 100px;
+}
+
+#open-day-registration-form .panel-title{
+  text-transform: uppercase;;
+  color: #FFF;
+  font-family: "bebas-neue",Helvetica,"DejaVu Sans",Arial,Verdana,Tahoma,sans-serif;
+  font-size: 24px;
+}
+
+#open-day-registration-form h3{
+  text-transform: uppercase;
+  color: #000;
+  font-family: "bebas-neue",Helvetica,"DejaVu Sans",Arial,Verdana,Tahoma,sans-serif;
+  font-size: 36px;
+}
+
+#open-day-registration-form h4{
+  text-transform: uppercase;
+  color: #d40940;
+  font-family: "bebas-neue",Helvetica,"DejaVu Sans",Arial,Verdana,Tahoma,sans-serif;
+  font-size: 24px;
+}
+
+#open-day-registration-form #edit-introduction .panel-title,
+#open-day-registration-form #edit-footer .panel-title{
+  background-color: #000;
+}
+
+#open-day-registration-form #edit-personal .panel-title,
+#open-day-registration-form #edit-ceremony .panel-title,
+#open-day-registration-form #edit-access .panel-title{
+  background-color: #d40940;
+}
+
+a[data-drupal-link-system-path="user/password"]{
+  display:none !important;
+}
+
+#open-day-registration-form .panel{
+  border: none;
+}
+
+#open-day-registration-form em{
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #222;
+  display: block;
+}
+
+#open-day-registration-form #edit-access p{
+  margin-top: 15px;
+  font-size: 12px;
+  color: #222;  
+}
+
+#open-day-registration-form label{
+  font-size: 12px;
+  color: #13252f;
+  margin: 5px 0;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+#open-day-registration-form input{
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #cdcdcd;
+  width: 69%;
+}
+
+#open-day-registration-form .form-item-school-name div.select-wrapper{
+  width: 69%;
+}
+
+#open-day-registration-form #edit-footer a{
+  color: #d40940;
+  display: block;
+}
+
+#open-day-registration-form button{  
+  text-transform: uppercase;;
+  color: #FFF;
+  background-color: #d40940;
+  font-family: "bebas-neue",Helvetica,"DejaVu Sans",Arial,Verdana,Tahoma,sans-serif;
+  font-size: 24px;
+  border: none;
+  margin-left: 260px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+#open-day-registration-form .select-wrapper::after{
+  color: #d40940;
+}
+
+#open-day-registration-form #edit-footer input{
+  height: inherit;
+}
+
+#open-day-registration-form .checkbox input[type="checkbox"]{
+  margin-top: -10px;
+  width: 20px;
+}
+
+#open-day-registration-form .checkbox label{
+  width: 620px;
+}
+
+#open-day-registration-form .form-control{
+  display: inline-block;
+}
+
+#open-day-registration-form #edit-dob {
+  width: 65%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
